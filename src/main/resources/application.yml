@@ -1,0 +1,13 @@
+spring:
+  elasticsearch:
+    rest:
+      uris: 192.168.40.77:9200
+  application:
+    name: my-application
+
+#spring:
+#  data:
+#    elasticsearch:
+#      # 已弃用
+#      cluster-name: my-application
+#      cluster-nodes: 192.168.40.77:9300
